@@ -1,0 +1,9 @@
+//module ClibICA {
+//    export *
+//    header "libICA.h"
+//}
+
+module ClibICA {
+    header "../../Headers/ClibICA-Bridging-Header.h"
+    export *
+}
