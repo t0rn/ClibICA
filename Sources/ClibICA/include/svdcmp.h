@@ -7,6 +7,8 @@
 #ifndef SVDCMP_H_
 #define SVDCMP_H_
 
+#include "matrix.h"
+
 void svdcmp(mat A, unsigned int M, unsigned int N, vect W, mat V);
 
 #endif /*SVDCMP_H_*/
